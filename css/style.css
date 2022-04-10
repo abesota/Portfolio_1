@@ -178,6 +178,11 @@ footer .copyright {
   margin-bottom: 34px;
 }
 
+.cap_pro {
+  margin-top: 44px;
+  margin-bottom: 34px;
+}
+
 /* about.html */
 .my_profile {
   line-height: 2;
@@ -198,9 +203,18 @@ footer .copyright {
 
 .item_text dt {
   float: left;
-  
 }
 
 .margin_bt {
   margin-bottom: 32px;
+}
+
+@media screen and ( max-width: 830px) {
+  .item_flex { display: block; text-align: center;}
+
+  .caption { margin-top: 44px; margin-bottom: 34px; margin-left: 5%;}
+
+  .item_flex img { width: 90%;}
+
+  .item_text { width: 90%; margin: 0 auto; padding-top: 40px; line-height: 1.5; text-align: left;}
 }
